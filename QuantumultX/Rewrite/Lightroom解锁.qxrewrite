@@ -1,0 +1,4 @@
+hostname = lcs-mobile-cops.adobe.io
+
+#lightroom 解锁订阅
+^https:\/\/photos\.adobe\.io\/v2\/accounts* url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/Lightroom.js
