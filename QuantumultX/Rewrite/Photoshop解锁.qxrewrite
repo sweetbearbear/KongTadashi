@@ -1,0 +1,4 @@
+hostname = photo.adobe.io
+
+#Photoshop & PS express 解锁订阅
+^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://qxnav.com/rules/QuantumultX/js/yue/photoshop.js
