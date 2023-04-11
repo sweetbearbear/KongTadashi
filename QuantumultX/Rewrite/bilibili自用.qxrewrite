@@ -1,5 +1,0 @@
-hostname = i0.hdslb.com,app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, d.bilibili.com
-
-#哔哩哔哩
-# ～ BiliBili_哔哩哔哩_繁体CC字幕转中文简体
-^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ url script-response-body https://raw.githubusercontent.com/98kevinxiao/javascript/main/Bilibili_cc.js
