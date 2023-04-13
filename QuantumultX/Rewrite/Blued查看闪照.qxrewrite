@@ -1,1 +1,4 @@
+hostname = burn-chatfiles.bldimg.com
 
+# Blued 模块
+^https:\/\/.*burn-chatfiles\.bldimg\.com\/ url script-response-body https://github.com/Eddie1551/own/raw/main/QuantumultX/script/blued.js
