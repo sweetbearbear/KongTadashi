@@ -14,11 +14,11 @@ function notify(title = "", subtitle = "", content = "", open_url) {
 
 async function launch (){
     if(headers['User-Agent'].indexOf("Blued")!=-1){
-        notify("🐔", "点击跳转到浏览器打开看图", url, url);
+        notify("🐓", "点击跳转到浏览器打开看图", url, url);
 console.log(url)
     }
      if(headers['User-Agent'].indexOf("Media")!=-1){
-        notify("🐔", "点击跳转到浏览器打开看图", url, url);
+        notify("🐓", "点击跳转到浏览器打开看图", url, url);
         console.log(url)
     }
     $done();
