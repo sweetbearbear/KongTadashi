@@ -1,4 +1,4 @@
-hostname = photo.adobe.io
+hostname = photo.adobe.io, lcs-mobile-cops.adobe.io
 
 #Photoshop & PS express 解锁订阅
 ^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://github.com/Eddie1551/own/raw/main/QuantumultX/script/ps.js
