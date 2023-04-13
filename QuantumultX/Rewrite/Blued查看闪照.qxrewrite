@@ -1,3 +1,5 @@
+###打开qx通知，对方发送闪照会出现提醒，点击提醒直接跳转到Safari即可查看对方闪照。
+
 hostname = burn-chatfiles.bldimg.com
 
 # Blued 模块
