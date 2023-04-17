@@ -1,4 +1,5 @@
-//搬运：https://github.com/yichahucha/surge/tree/master
+#!name=Netflix Rating
+#!desc=搬运：https://github.com/yichahucha/surge/tree/master
 
 [Script]
 nf_rating.js = type=http-request,pattern=^https?:\/\/ios(-.*)?\.prod\.ftl\.netflix\.com\/iosui\/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
