@@ -2,7 +2,7 @@
 #!desc=在知识的海洋里狗刨
 #!author=RuCu6 app2smile
 #!update=2024-01-24 13:20
-转载自 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet
+# 转载自 https://raw.githubusercontent.com/RuCu6/QuanX/main/Rewrites/Cube/zhihu.snippet
 
 [URL Rewrite]
 ^https:\/\/api\.zhihu\.com\/unlimited\/go\/my_card - reject
