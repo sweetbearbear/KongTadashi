@@ -1,0 +1,12 @@
+#!name=Bilibili_CC
+#!desc=Bilibili_CC
+# https://github.com/ddgksf2013/Rewrite/raw/master/Function/Bilibili_CC.conf
+
+[Script]
+
+# > 哔哩哔哩繁体CC字幕转中文简体（2023-04-11）@ddgksf2013
+bilibili_cc_16 = type=http-response, pattern=^https?:\/\/.*\.hdslb\.com\/bfs\/subtitle\/.+\.json, requires-body=true, max-size=0, script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% aisubtitle.hdslb.com,i0.hdslb.com
