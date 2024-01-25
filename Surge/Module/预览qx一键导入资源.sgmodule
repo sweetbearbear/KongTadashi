@@ -1,0 +1,10 @@
+#!name=预览qx一键导入资源
+#!desc=将qx的一键导入链接复制到Safari打开可以预览。转载自 https://github.com/chengkongyiban/shadowrocket/raw/main/scripts/qx-resource-preview.js
+
+[Script]
+
+Quantumult X资源预览 = type=http-request, pattern=^https:\/\/quantumult\.app\/x\/open-app\/add-resource\?remote-resource=, requires-body=true, max-size=0, script-path=https://github.com/chengkongyiban/shadowrocket/raw/main/scripts/qx-resource-preview.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% quantumult.app
