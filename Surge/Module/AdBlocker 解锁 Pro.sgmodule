@@ -1,0 +1,11 @@
+#!name=AdBlocker unlock Pro
+#!desc=解锁adblockpro
+转载自 https://raw.githubusercontent.com/Yu9191/Rewrite/main/adblockpro.js
+
+[Script]
+
+adblockpro_3 = type=http-response, pattern=^https:\/\/api\.adblockpro\.app\/verify, requires-body=true, max-size=0, script-path=https://raw.githubusercontent.com/Yu9191/Rewrite/main/adblockpro.js, timeout=60, script-update-interval=0
+
+[MITM]
+
+hostname = %APPEND% api.adblockpro.app
