@@ -1,5 +1,5 @@
 # > Blued
-# hostname = social.blued.cn
+hostname = social.blued.cn
 # 主页推荐直播 
 ^https?:\/\/social\.blued\.cn\/users\/recommend url reject-dict
 # 未登录时个人界面广告
